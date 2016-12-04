@@ -1,0 +1,54 @@
+## Basic Configuration
+
+baseurl = "https://rsreddy.github.io/"
+builddrafts = false
+canonifyurls = false
+languageCode = "en-US"
+
+contentdir = "content"
+layoutdir = "layouts"
+publishdir = "public"
+
+author = "Radhika Shah Reddy"
+title = "R.S.R."
+
+theme = "hugo-goa"
+
+## Site Settings
+[params]
+author = "Radhika Shah Reddy"
+authorimage = "rshahProfile.jpg"
+dateformat = "Mon, Jan 2, 2006"
+
+## Site Meta Settings
+[params.meta]
+description = "Simple minimalist theme"
+keywords = "minimalist,blog,goa,hugo,developer"
+
+## Extras
+[params.extra]
+copyright = "© 2016. Radhika Shah Reddy." 
+poweredBy = false
+highlightJS = false
+
+## Main Menu
+[[menu.main]]
+    name = "express"
+    weight = 100
+    identifier = "express"
+    url = "/express/"
+[[menu.main]]
+    name = "about"
+    identifier = "about"
+    weight = 200
+    url = "/about/"
+[[menu.main]]
+    name = "brackets"
+    identifier = "brackets"
+    weight = 300
+    url = "/brackets/"
+[[menu.main]]
+    name = "resume"
+    identifier = "resume"
+    weight = 400
+    url = "/resume/"
