@@ -4,6 +4,7 @@ baseurl = "https://rsreddy.github.io/"
 builddrafts = false
 canonifyurls = false
 languageCode = "en-US"
+enableEmoji = true
 
 contentdir = "content"
 layoutdir = "layouts"
@@ -17,6 +18,8 @@ theme = "hugo-goa"
 ## Site Settings
 [params]
 author = "Radhika Shah Reddy"
+intro = "A Mom, A Software Developer"
+description = "I love to learn from Kids. And I love all things Computer Science."
 authorimage = "rshahProfile.jpg"
 dateformat = "Mon, Jan 2, 2006"
 
@@ -27,16 +30,16 @@ keywords = "minimalist,blog,goa,hugo,developer"
 
 ## Extras
 [params.extra]
-copyright = "© 2016. Radhika Shah Reddy." 
+copyright = "© 2017. Radhika Shah Reddy." 
 poweredBy = false
 highlightJS = false
 
 ## Main Menu
 [[menu.main]]
-    name = "express"
+    name = "expressions"
     weight = 100
-    identifier = "express"
-    url = "/express/"
+    identifier = "expressions"
+    url = "/expressions/"
 [[menu.main]]
     name = "about"
     identifier = "about"
@@ -51,4 +54,4 @@ highlightJS = false
     name = "resume"
     identifier = "resume"
     weight = 400
-    url = "/resume/"
+    url = "http://registry.jsonresume.org/rsreddy"
